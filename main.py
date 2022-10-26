@@ -7,5 +7,5 @@ def return_root_message():
   return "I'm alive. Surprising right? Anyway ill start duino.py now."
 
 if __name__ == '__main__':
-  app.run()
+  app.run(port=3000)
   os.system("duino.py")
